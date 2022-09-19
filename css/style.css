@@ -23,6 +23,17 @@ debug
     border: 2px dashed black;
     padding: 9px 300px;    
 }
+
+.debug .hero{
+    height: 600px;
+    background-color:#00008b;
+}
+.debug .pink-box{
+    background-color: #ee82ee;
+    height: 400px;
+    width:1000px ;
+    border: 2px dashed black;
+}
 /*------------
 common  
 --------------*/
@@ -35,13 +46,22 @@ common
 header  
 --------------*/
 header{
-    padding: 14px 0;
+    padding: 16px 0;
 }
 .header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
+    
 }
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+
 /*------------
 main  
 --------------*/
