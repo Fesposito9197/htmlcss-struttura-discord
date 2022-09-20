@@ -119,17 +119,17 @@ section{
 section:nth-child(2n){
     background-color: #d3d3d3;
 }
+
+/*------------
+Footer  
+--------------*/
 .col-large{
     width: 40%;
 }
 .col-thin{
     width: 30%;
-    
 }
 
-/*------------
-Footer  
---------------*/
 .footer-bottom{
     display: flex;
     justify-content: space-between;
